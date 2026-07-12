@@ -164,6 +164,21 @@ nav a:hover, nav a.active { color: var(--vein); background: rgba(201,160,81,0.08
 
 .hero-icon { font-size: 2.5rem; display: block; margin-bottom: 0.75rem; }
 
+/* ===== HERO BANNER ===== */
+.hero-banner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem 1.5rem;
+}
+.hero-banner img {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  display: block;
+  margin: 0 auto;
+}
+
 /* ===== MAIN ===== */
 main { flex: 1; max-width: 1200px; margin: 0 auto; padding: 2rem 1rem 3rem; width: 100%; }
 
